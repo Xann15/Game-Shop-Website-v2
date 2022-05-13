@@ -1,0 +1,83 @@
+:root {
+    --main-txt-color: rgb(43, 255, 0);
+    --main-box-shadow: yellow;
+}
+
+body {
+    background-color: hsl(213, 11%, 20%);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h5 {
+    color: var(--main-txt-color);
+}
+
+p {
+    color: white;
+}
+
+.card {
+    height: 250px;
+    width: 90%;
+    background-color: rgb(33,37,41);
+}
+
+.img-fluid {
+    width: 70%;
+}
+
+.carousel {
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.site,
+.site:hover {
+    color: var(--main-txt-color);
+}
+
+@media (max-width: 990px) {
+    .carousel {
+        max-width: 80%;
+    }
+    .card {
+        height: 220px;
+    }
+}
+@media (max-width: 580px) {
+    .carousel {
+        max-width: 100%;
+    }
+    .img-fluid{
+        width: 85px;
+    }
+    .card {
+        height: 200px;
+    }
+    .card p {
+        font-size: 0.8rem;
+        margin: 10 -10;
+    }
+    h5 {
+        margin: 0 -10;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 380px) {
+    .img-fluid {
+        transform: scale(1.3);
+    }
+    .card {
+        width: 110%;
+    }
+}
