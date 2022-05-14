@@ -1,10 +1,10 @@
 :root {
-    --main-txt-color: rgb(43, 255, 0);
+    --main-txt-color: yellow;
     --main-box-shadow: yellow;
 }
 
 body {
-    background-color: red;
+    background-color: hsl(213, 11%, 20%);
     color: white;
 }
 
