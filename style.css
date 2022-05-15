@@ -45,11 +45,6 @@ h1 {
     transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.carousel {
-    padding-top: 40px;
-    margin: 0 auto;
-}
-
 .site,
 .site:hover {
     color: var(--main-txt-color);
