@@ -17,6 +17,10 @@ h1 {
     font-size: 2rem;
 }
 
+.carousel {
+  margin: 0 auto;
+}
+
 .card h5 {
     color: white;
 }
