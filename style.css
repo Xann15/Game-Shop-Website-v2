@@ -17,6 +17,10 @@ h1 {
     font-size: 2rem;
 }
 
+.empty {
+  height: 90px;
+}
+
 .carousel {
   margin: 0 auto;
 }
